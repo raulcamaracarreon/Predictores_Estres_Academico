@@ -70,14 +70,20 @@ new_student = pd.DataFrame({
 if 'model' in locals():
     prediction = model.predict(new_student)
     print(f"Nivel de estrés predicho: {prediction[0]:.2f}")
-📄 Paper de Investigación Generado con IA
-Como parte de este experimento, se utilizó Gemini Deep Research para sintetizar los hallazgos del código y contrastarlos con literatura científica actual, generando un White Paper académico completo.
+```
+---
 
-📥 Leer el Paper (PDF)
+## 📄 Paper de Investigación Generado con IA
 
-💻 Estructura del Repositorio
-Plaintext
+Como parte de este experimento, se utilizó **Gemini Deep Research** para sintetizar los hallazgos del código y contrastarlos con literatura científica actual, generando un White Paper académico completo.
 
+📥 **[Leer el Paper (PDF)](paper_estres_academico.pdf)**
+
+---
+
+## 💻 Estructura del Repositorio
+
+```text
 ├── Stress_Predictive_Models.ipynb    # Notebook principal con todo el código y análisis
 ├── paper_estres_academico.pdf        # Reporte de investigación generado
 ├── stress_regression_pipeline.joblib # Modelo serializado listo para producción
